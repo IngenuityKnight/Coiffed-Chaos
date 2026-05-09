@@ -9,7 +9,7 @@ import YouTubeShortsRow from '@/components/YouTubeShortsRow';
 import { services } from '@/data/services';
 import { articles } from '@/data/articles';
 
-const SHORTS = ['Y9lmZVUH5wq'];
+const SHORTS = ['Y9lmZVUH5qw'];
 
 const homeServices = services.slice(0, 6);
 const homeArticles = articles.slice(0, 3);
@@ -55,25 +55,15 @@ export default function HomePage() {
             </div>
 
             <div className="lg:col-span-5 rise rise-2">
-              <div className="relative">
-                <div className="relative aspect-[4/5] rounded-3xl overflow-hidden bg-canvasAlt border border-line shadow-lift">
-                  {/* Replace with /public/images/hero.jpg */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-cocoa/20 via-canvasAlt to-line/30" />
-                  <div className="absolute inset-0 grid place-items-center text-center px-6">
-                    <div>
-                      <p className="font-display text-cocoa/60 text-sm tracking-wider2 uppercase">
-                        Replace with
-                      </p>
-                      <p className="font-display text-ink text-2xl mt-2">
-                        /public/images/hero.jpg
-                      </p>
-                      <p className="text-muted text-sm mt-3 max-w-xs mx-auto">
-                        Recommended: warm, editorial portrait of Ava or a
-                        client showing healthy, well-styled hair.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+              <div className="relative aspect-[9/16] rounded-3xl overflow-hidden border border-line shadow-lift">
+                <iframe
+                  className="absolute inset-0 w-full h-full"
+                  src={`https://www.youtube.com/embed/${SHORTS[0]}`}
+                  title="Coiffed Chaos on YouTube"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>
