@@ -39,14 +39,14 @@ export default function Header() {
           : 'bg-canvas border-b border-transparent'
       }`}
     >
-      <div className="mx-auto max-w-7xl px-5 md:px-8 h-24 md:h-28 flex items-center justify-between">
+      <div className="mx-auto max-w-7xl px-5 md:px-8 h-40 md:h-44 flex items-center justify-between">
         <Link href="/" aria-label="Coiffed Chaos home">
           <Image
             src="/images/logo.webp"
             alt="Coiffed Chaos"
-            width={280}
-            height={140}
-            className="h-24 md:h-28 w-auto object-contain"
+            width={448}
+            height={224}
+            className="h-40 md:h-44 w-auto object-contain"
             priority
           />
         </Link>
