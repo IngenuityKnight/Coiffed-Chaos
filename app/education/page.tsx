@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Section from '@/components/Section';
 import ArticleCard from '@/components/ArticleCard';
 import Button from '@/components/Button';
+import YouTubeChannelEmbed from '@/components/YouTubeChannelEmbed';
 import { articles } from '@/data/articles';
 
 export const metadata: Metadata = {
@@ -31,6 +32,25 @@ export default function EducationPage() {
           ))}
         </div>
       </Section>
+
+      {/* YOUTUBE CHANNEL */}
+      <section className="py-16 md:py-24 bg-canvasAlt/50">
+        <div className="mx-auto max-w-7xl px-5 md:px-8">
+          <div className="max-w-2xl mb-10">
+            <p className="text-xs uppercase tracking-wider2 text-cocoa font-medium mb-4">
+              Watch &amp; learn
+            </p>
+            <h2 className="font-display text-3xl md:text-4xl tracking-tightish text-ink leading-[1.1]">
+              Coiffed Chaos on YouTube
+            </h2>
+            <p className="mt-4 text-base md:text-lg text-muted leading-relaxed">
+              Tutorials, tips, and real talk about caring for Black hair —
+              straight from Ava&rsquo;s chair.
+            </p>
+          </div>
+          <YouTubeChannelEmbed />
+        </div>
+      </section>
 
       {/* CLASSES WAITLIST */}
       <section id="waitlist" className="py-20 md:py-28">

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import Button from './Button';
@@ -39,14 +40,15 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto max-w-7xl px-5 md:px-8 h-16 md:h-20 flex items-center justify-between">
-        <Link
-          href="/"
-          className="font-display text-xl md:text-2xl tracking-tightish text-ink"
-          aria-label="Coiffed Chaos home"
-        >
-          Coiffed
-          <span className="text-cocoa flourish"> Chaos</span>
-          <span className="align-top text-[0.5em] text-cocoa ml-0.5">®</span>
+        <Link href="/" aria-label="Coiffed Chaos home">
+          <Image
+            src="/images/logo.webp"
+            alt="Coiffed Chaos"
+            width={120}
+            height={60}
+            className="h-12 md:h-14 w-auto object-contain"
+            priority
+          />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-8">
