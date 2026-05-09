@@ -31,7 +31,6 @@ export default function Footer() {
               ['Shop', '/shop'],
               ['About Ava', '/about'],
               ['Gallery', '/gallery'],
-              ['Services', '/services'],
               ['Contact', '/contact'],
             ].map(([label, href]) => (
               <li key={href}>

@@ -12,7 +12,6 @@ const NAV = [
   { href: '/shop', label: 'Shop' },
   { href: '/about', label: 'About Ava' },
   { href: '/gallery', label: 'Gallery' },
-  { href: '/services', label: 'Services' },
 ];
 
 export default function Header() {
