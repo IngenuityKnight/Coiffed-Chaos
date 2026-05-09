@@ -9,7 +9,7 @@ import YouTubeShortsRow from '@/components/YouTubeShortsRow';
 import { services } from '@/data/services';
 import { articles } from '@/data/articles';
 
-const SHORTS = ['Y9lmZVUH5qw'];
+const SHORTS = ['Y9ImZVUH5qw'];
 
 const homeServices = services.slice(0, 6);
 const homeArticles = articles.slice(0, 3);
