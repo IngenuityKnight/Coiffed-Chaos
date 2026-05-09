@@ -58,7 +58,7 @@ export default function HomePage() {
               <div className="relative aspect-[9/16] rounded-3xl overflow-hidden border border-line shadow-lift">
                 <iframe
                   className="absolute inset-0 w-full h-full"
-                  src={`https://www.youtube.com/embed/${SHORTS[0]}`}
+                  src={`https://www.youtube.com/embed/${SHORTS[0]}?autoplay=1&mute=1&loop=1&playlist=${SHORTS[0]}`}
                   title="Coiffed Chaos on YouTube"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
