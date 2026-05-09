@@ -8,11 +8,11 @@ import Button from './Button';
 
 const NAV = [
   { href: '/', label: 'Home' },
-  { href: '/services', label: 'Services' },
   { href: '/education', label: 'Hair Education' },
+  { href: '/shop', label: 'Shop' },
   { href: '/about', label: 'About Ava' },
   { href: '/gallery', label: 'Gallery' },
-  { href: '/shop', label: 'Shop' },
+  { href: '/services', label: 'Services' },
 ];
 
 export default function Header() {

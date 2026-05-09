@@ -11,9 +11,9 @@ export default function Footer() {
             <span className="align-top text-[0.5em] text-cocoa ml-0.5">®</span>
           </Link>
           <p className="mt-4 text-muted max-w-prose2 leading-relaxed">
-            Black hair care, styling, and education rooted in decades of
-            experience. Carrying forward the legacy of Raj&rsquo;s Mind Body
-            and Soul through salon services, education, and storytelling.
+            Black hair education, product guidance, and styling rooted in
+            decades of experience. Teaching women to understand and love
+            their hair — not just outsource it.
           </p>
           <p className="mt-6 text-sm text-muted">
             Detroit, Michigan&nbsp;&nbsp;·&nbsp;&nbsp;48221
@@ -27,12 +27,12 @@ export default function Footer() {
           <ul className="mt-4 space-y-2.5 text-sm">
             {[
               ['Home', '/'],
-              ['Services', '/services'],
               ['Hair Education', '/education'],
+              ['Shop', '/shop'],
               ['About Ava', '/about'],
               ['Gallery', '/gallery'],
-              ['Shop', '/shop'],
-              ['Book', '/contact'],
+              ['Services', '/services'],
+              ['Contact', '/contact'],
             ].map(([label, href]) => (
               <li key={href}>
                 <Link
@@ -76,7 +76,7 @@ export default function Footer() {
                 href="/contact"
                 className="text-muted hover:text-ink transition-colors"
               >
-                Email & Booking →
+                Contact →
               </Link>
             </li>
           </ul>

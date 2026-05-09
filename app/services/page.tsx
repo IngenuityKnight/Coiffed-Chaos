@@ -14,9 +14,9 @@ export default function ServicesPage() {
   return (
     <>
       <Section
-        eyebrow="Services"
-        title="Hair care that starts with understanding your hair story."
-        intro="Not every woman needs the same hair routine. Your hair history, lifestyle, texture, styling habits, and confidence all matter. Coiffed Chaos starts with the person, not just the hairstyle."
+        eyebrow="In-person services · Detroit"
+        title="For when you want Ava's hands on your hair."
+        intro="Coiffed Chaos still offers in-person styling and consultations in Detroit. Every service starts with your hair history — not a one-size-fits-all routine."
       >
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6">
           {services.map((s) => (
