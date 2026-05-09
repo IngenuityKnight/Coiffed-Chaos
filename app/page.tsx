@@ -5,8 +5,11 @@ import ServiceCard from '@/components/ServiceCard';
 import ArticleCard from '@/components/ArticleCard';
 import Testimonial from '@/components/Testimonial';
 import CTASection from '@/components/CTASection';
+import YouTubeShortsRow from '@/components/YouTubeShortsRow';
 import { services } from '@/data/services';
 import { articles } from '@/data/articles';
+
+const SHORTS = ['Y9lmZVUH5wq'];
 
 const homeServices = services.slice(0, 6);
 const homeArticles = articles.slice(0, 3);
@@ -130,6 +133,24 @@ export default function HomePage() {
           </Button>
         </div>
       </Section>
+
+      {/* YOUTUBE SHORTS */}
+      <section className="py-16 md:py-24 bg-canvasAlt/50">
+        <div className="mx-auto max-w-7xl px-5 md:px-8">
+          <div className="max-w-2xl mb-10">
+            <p className="text-xs uppercase tracking-wider2 text-cocoa font-medium mb-4">
+              Watch &amp; learn
+            </p>
+            <h2 className="font-display text-3xl md:text-4xl tracking-tightish text-ink leading-[1.1]">
+              Coiffed Chaos on YouTube
+            </h2>
+            <p className="mt-4 text-base md:text-lg text-muted leading-relaxed">
+              Quick tips and real talk about caring for Black hair — straight from Ava.
+            </p>
+          </div>
+          <YouTubeShortsRow ids={SHORTS} />
+        </div>
+      </section>
 
       {/* SHOP PREVIEW */}
       <section className="py-20 md:py-28 bg-canvasAlt/50">
