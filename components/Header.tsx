@@ -44,9 +44,9 @@ export default function Header() {
           <Image
             src="/images/logo.webp"
             alt="Coiffed Chaos"
-            width={200}
-            height={100}
-            className="h-20 md:h-24 w-auto object-contain"
+            width={280}
+            height={140}
+            className="h-24 md:h-28 w-auto object-contain"
             priority
           />
         </Link>
