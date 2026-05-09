@@ -12,7 +12,7 @@ export default function CTASection({
   eyebrow = 'Next step',
   title,
   copy,
-  primaryCta = { label: 'Book a Hair Discovery Call', href: '/contact' },
+  primaryCta = { label: 'Get in Touch', href: '/contact' },
   secondaryCta,
 }: Props) {
   return (

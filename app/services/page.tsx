@@ -33,8 +33,9 @@ export default function ServicesPage() {
 
       <CTASection
         eyebrow="Not sure which service is right?"
-        title="Start with a discovery call."
-        copy="A short conversation is the easiest way to find the right next step — whether that is a salon visit, a routine reset, or simply a better product for what you already do."
+        title="Reach out and ask."
+        copy="Have a question about which service fits your hair? Reach out on Instagram or the contact page — Ava is happy to help you find the right next step."
+        primaryCta={{ label: 'Get in Touch', href: '/contact' }}
       />
     </>
   );

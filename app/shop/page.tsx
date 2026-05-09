@@ -62,7 +62,8 @@ export default function ShopPage() {
       <CTASection
         eyebrow="Not sure which is right for you?"
         title="Ask Ava before you spend."
-        copy="A discovery call saves you the cost of guessing. Ava will recommend exactly what your hair needs — and what you do not need to buy."
+        copy="Have questions about a product? Reach out on Instagram — Ava will recommend exactly what your hair needs, and what you do not need to buy."
+        primaryCta={{ label: 'Get in Touch', href: '/contact' }}
       />
     </>
   );

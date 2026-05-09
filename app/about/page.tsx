@@ -84,7 +84,8 @@ export default function AboutPage() {
       <CTASection
         eyebrow="Work with Ava"
         title="Begin with a conversation."
-        copy="Whether you are recovering from damage, transitioning, or simply ready for a stylist who listens — start with a discovery call."
+        copy="Whether you are recovering from damage, transitioning, or simply ready for a stylist who listens — reach out on Instagram or the contact page."
+        primaryCta={{ label: 'Get in Touch', href: '/contact' }}
         secondaryCta={{ label: 'See services', href: '/services' }}
       />
     </>

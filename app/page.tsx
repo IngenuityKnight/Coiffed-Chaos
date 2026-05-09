@@ -42,11 +42,11 @@ export default function HomePage() {
                 — Ava helps you find the next right step.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-3">
-                <Button href="/contact" variant="primary">
-                  Book a Hair Discovery Call
-                </Button>
-                <Button href="/education" variant="secondary">
+                <Button href="/education" variant="primary">
                   Explore Hair Education
+                </Button>
+                <Button href="/contact" variant="secondary">
+                  Get in Touch
                 </Button>
               </div>
             </div>
@@ -70,17 +70,6 @@ export default function HomePage() {
                       </p>
                     </div>
                   </div>
-                </div>
-                <div
-                  className="hidden md:block absolute -bottom-6 -left-6 bg-cream border border-line rounded-2xl px-5 py-4 shadow-soft max-w-[16rem] rise rise-3"
-                  aria-hidden="true"
-                >
-                  <p className="text-xs uppercase tracking-wider2 text-cocoa">
-                    Currently booking
-                  </p>
-                  <p className="font-display text-ink text-base mt-1">
-                    Discovery calls & consultations
-                  </p>
                 </div>
               </div>
             </div>
@@ -266,8 +255,9 @@ export default function HomePage() {
       <CTASection
         eyebrow="Not sure where to start?"
         title="Not sure what your hair needs next?"
-        copy="Start with a discovery call and get guidance before guessing your way through another product, style, or routine."
-        secondaryCta={{ label: 'Explore Hair Education', href: '/education' }}
+        copy="Explore the education resources or reach out on Instagram — Ava is happy to point you in the right direction."
+        primaryCta={{ label: 'Explore Hair Education', href: '/education' }}
+        secondaryCta={{ label: 'Get in Touch', href: '/contact' }}
       />
     </>
   );

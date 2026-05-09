@@ -28,7 +28,7 @@ export default function StickyMobileCTA() {
         href="/contact"
         className="flex items-center justify-center gap-2 bg-ink text-cream rounded-full py-4 shadow-lift text-sm tracking-wide"
       >
-        Book a Hair Discovery Call
+        Book an Appointment
         <span aria-hidden="true">→</span>
       </Link>
     </div>

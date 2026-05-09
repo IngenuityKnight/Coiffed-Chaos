@@ -39,14 +39,14 @@ export default function Header() {
           : 'bg-canvas border-b border-transparent'
       }`}
     >
-      <div className="mx-auto max-w-7xl px-5 md:px-8 h-16 md:h-20 flex items-center justify-between">
+      <div className="mx-auto max-w-7xl px-5 md:px-8 h-24 md:h-28 flex items-center justify-between">
         <Link href="/" aria-label="Coiffed Chaos home">
           <Image
             src="/images/logo.webp"
             alt="Coiffed Chaos"
-            width={120}
-            height={60}
-            className="h-12 md:h-14 w-auto object-contain"
+            width={200}
+            height={100}
+            className="h-20 md:h-24 w-auto object-contain"
             priority
           />
         </Link>
@@ -80,8 +80,8 @@ export default function Header() {
         </nav>
 
         <div className="hidden lg:block">
-          <Button href="/contact" variant="primary">
-            Book a Hair Discovery Call
+          <Button href="/contact" variant="secondary">
+            Contact
           </Button>
         </div>
 
@@ -126,8 +126,8 @@ export default function Header() {
               );
             })}
             <div className="mt-5">
-              <Button href="/contact" variant="primary" className="w-full">
-                Book a Hair Discovery Call
+              <Button href="/contact" variant="secondary" className="w-full">
+                Contact
               </Button>
             </div>
           </nav>
